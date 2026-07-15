@@ -1,0 +1,24 @@
+/* OpenShelf 暗色主题 - Catppuccin Mocha */
+QMainWindow { background-color: #1e1e2e; color: #cdd6f4; }
+QTextBrowser { background-color: #181825; color: #cdd6f4; border: 1px solid #313244; border-radius: 6px; padding: 8px; }
+QTextEdit, QPlainTextEdit { background-color: #1e1e2e; color: #cdd6f4; border: 1px solid #313244; border-radius: 6px; font-family: "Microsoft YaHei", "Cascadia Code", "Consolas", monospace; font-size: 13px; padding: 6px; }
+QPushButton { background-color: #89b4fa; color: #1e1e2e; border: none; padding: 8px 16px; border-radius: 6px; font-weight: bold; min-height: 20px; }
+QPushButton:hover { background-color: #b4d0fb; }
+QPushButton:disabled { background-color: #45475a; color: #6c7086; }
+QLineEdit { background-color: #313244; color: #cdd6f4; border: 1px solid #45475a; border-radius: 6px; padding: 6px; }
+QTabWidget::pane { border: 1px solid #313244; }
+QTabBar::tab { background-color: #1e1e2e; color: #6c7086; padding: 8px 16px; border: 1px solid #313244; border-bottom: none; font-family: "Microsoft YaHei"; }
+QTabBar::tab:selected { background-color: #313244; color: #cdd6f4; }
+QTreeView { background-color: #181825; color: #cdd6f4; border: 1px solid #313244; }
+QSplitter::handle { background-color: #313244; width: 2px; }
+QScrollBar:vertical { background-color: #1e1e2e; width: 10px; }
+QScrollBar::handle:vertical { background-color: #45475a; border-radius: 5px; min-height: 20px; }
+QMenuBar { background-color: #11111b; color: #cdd6f4; font-family: "Microsoft YaHei"; }
+QMenu { background-color: #1e1e2e; color: #cdd6f4; border: 1px solid #313244; font-family: "Microsoft YaHei"; }
+QMenu::item:selected { background-color: #313244; }
+QStatusBar { background-color: #11111b; color: #a6adc8; }
+QLabel { color: #cdd6f4; font-family: "Microsoft YaHei"; }
+QComboBox { background-color: #313244; color: #cdd6f4; border: 1px solid #45475a; border-radius: 6px; padding: 4px; }
+QCheckBox { color: #cdd6f4; }
+QDialog { background-color: #1e1e2e; }
+QFormLayout QLabel { font-family: "Microsoft YaHei"; }

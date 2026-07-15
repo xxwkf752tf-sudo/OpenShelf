@@ -1,0 +1,7 @@
+/* OpenShelf Light Theme */
+QMainWindow { background-color: #eff1f5; color: #4c4f69; }
+QTextBrowser { background-color: #ffffff; color: #4c4f69; border: 1px solid #ccd0da; border-radius: 4px; }
+QTextEdit, QPlainTextEdit { background-color: #ffffff; color: #4c4f69; border: 1px solid #ccd0da; border-radius: 4px; font-family: "Cascadia Code", "Consolas", monospace; font-size: 13px; }
+QPushButton { background-color: #1e66f5; color: #ffffff; border: none; padding: 8px 16px; border-radius: 4px; font-weight: bold; }
+QPushButton:hover { background-color: #6090f0; }
+QPushButton:disabled { background-color: #ccd0da; color: #9ca0b0; }
